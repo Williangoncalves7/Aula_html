@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="pt-br"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de Formulários HTML - Básico</title>
+</head>
+<body>
+
+    <h1>Cadastro de Novo Aluno</h1>
+    <hr>
+
+    <form action="https://ava.sesisenai.org.br/pluginfile.php/1845251/mod_resource/content/1/index.html#" method="get">
+
+        <h3>Informações Pessoais</h3>
+
+        <p>
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        </p>
+        
+        <p>
+            <label for="nome">Sobrenome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu Sobrenome">
+        </p>
+        
+        <p>
+            <label for="email">E-mail Corporativo:</label><br>
+            <input type="email" id="email" name="email" required="">
+        </p>
+
+        <p>
+            <label for="senha">Senha de Acesso:</label><br>
+            <input type="password" id="senha" name="senha">
+        </p>
+
+        <p>
+            <label for="idade">Idade:</label><br>
+            <input type="number" id="idade" name="idade" min="16" max="100">
+        </p>
+
+        <hr>
+
+        <h3>Preferências e Seleção</h3>
+
+        <p>
+            <label for="turno">Turno de Estudo:</label><br>
+            <select id="turno" name="turno">
+                <option value="">-- Selecione --</option>
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+                <option value="integral">Integral</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Nível de Conhecimento:</label><br>
+            <input type="radio" id="iniciante" name="nivel" value="iniciante">
+            <label for="iniciante">Iniciante</label>
+
+            <input type="radio" id="intermediario" name="nivel" value="intermediario">
+            <label for="intermediario">Intermediário</label>
+            <input type="radio" id="Avançado" name="nivel" value="Avançado">
+            <label for="Avançado">Avançado</label>
+        </p>
+
+
+        <p>
+            <label>Linguagens de Interesse:</label><br>
+            <input type="checkbox" id="html" name="interesse" value="html">
+            <label for="html">HTML5</label>
+
+            <input type="checkbox" id="sql" name="interesse" value="sql">
+            <label for="sql">SQL</label>
+            <input type="checkbox" id="css3" name="interesse" value="css3">
+            <label for="css3">CSS3</label>
+            <input type="checkbox" id="javaScript" name="interesse" value="javaScript">
+            <label for="javaScript">javaScript</label>
+        </p>
+
+        <p>
+            <label for="date">Data de Nascimento:</label><br>
+            <input type="date">
+        <br>
+        <br>   
+            <label for="telefone">Qual seu telefone:</label><br>
+            <input type="text" id="telefone" name="telefone" placeholder="Qual seu telefone">
+            <br>
+
+            <label>Como você conheceu a escola?:</label><br>
+            <input type="radio" id= "Google" name="nivel" value= "Google">
+            <label for= "Google">Google</label>
+            <input type="radio" id="Redes Sociais" name="nivel" value="Redes Sociais">
+            <label for="Redes Sociais">Redes Sociais</label>
+            <input type="radio" id="Indicação de Amigo" name="nivel" value="Indicação de Amigo">
+            <label for="Indicação de Amigo">Indicação de Amigo</label>
+            <input type="radio" id="Outros" name="nivel" value="Outros">
+            <label for="Outros">Outros</label>
+        </p>
+        <hr>
+
+        <h3>Mensagem e Envio</h3>
+
+        <p>
+            <label for="bio">Breve Biografia:</label><br>
+            <textarea id="bio" name="bio" rows="5" cols="40"></textarea>
+        </p>
+
+        <button type="submit">Finalizar Cadastro</button>
+        <button type="reset">Limpar Tudo</button>
+
+    </form>
+
+
+</body></html>
