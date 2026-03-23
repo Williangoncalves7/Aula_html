@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(14, 158, 241);
+}
+/*
+div {
+    background-color: rgb(243, 240, 240);
+} 
+*/
+
+div.legal{
+    background-color: rgb(243, 240, 240);
+}
+
+div#main p.intro{
+    background-color: rgb(255, 174, 0);
+}
