@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>0</p>
+    <button>Click aki</button>
+    <script>
+        let paragrafo = document.querySelector('p')
+        let botao = document.querySelector('button')
+        let valor = 0
+        botao.addEventListener('click', function(){
+            valor++
+            paragrafo.innerText = valor
+        })
+    </script>
+</body>
+</html>

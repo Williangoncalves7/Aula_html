@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn_vermelho">Vermelho</button>
+    <button id="btn_verde">Verde</button>
+    <button id="btn_amarelo">Amarelo</button>
+    <div style="width: 200px; height: 200px;"></div>
+    <script>
+        let btnVermelho = documento.querySelector('#btn_vermelho');
+        let btnVerde = documento.querySelector('#btn_verde');
+        let btnAmarelo = documento.querySelector('#btn_amarelo');
+        let quadrado = document.querySelector("div")
+
+        btnVermelho.addEventlistener('click', function(){
+            quadrado.style.backgroundColor = 'red'
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="imagemA" width="200" src="https://uploads.spiritfanfiction.com/historias/capas/201905/qualquer-coisa-16585290-240520191644.png">
+    <img id="imagemB"width="200" src="https://wallpapers.com/images/hd/creative-galaxy-background-image-sle3d15zcep56had.jpg">
+    <script>
+        let imgA = document.querySelector('#imagemA');
+        let imgB = document.querySelector('#imagemB');
+        imgA.addEventListener('click', function(){
+            document.body.style.backgroundColor = 'blue'
+        })
+        imgB.addEventListener('click', function(){
+            document.body.style.backgroundColor = 'black'
+        })
+    </script>
+</body>
+</html>
