@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let maiores = 0;
+        let menores = 0;
+        let idade;
+
+        while (true) {
+            idade = parseInt(prompt("Digite a idade (0 para parar):"));
+
+            if (idade === 0) break;
+
+            if (idade >= 18) {
+                maiores++;
+            }else {
+                menores++;
+            }
+        }
+        console.log("maiores de 18:" , maiores);
+        console.log("Menores de 18:" , menores);
+    </script>
+</body>
+</html>

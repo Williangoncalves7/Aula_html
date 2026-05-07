@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let solteiros = 0;
+        let casados = 0;
+        let divorciados = 0;
+        let viuvos = 0;
+        let continuar;
+
+        do {
+            let nome = prompt("Digite o nome:");
+            let estado = prompt("Estatdo civil (solteiros, cassado, divorciado, viuvo:");
+
+            if (estado === "solteiros") solteiros++;
+            else if (estado === "casado") casado++;
+            else if (estado === "divorciado") divorciados++;
+            else if (estado === "viuvos") viuvos++;
+                
+            continuar = prompt("Deseja continuar? (s/n)");
+        } while (continuar.toLowerCase() !== "n");
+        
+        console.log("SOlteiros:", solteiros);
+        console.log("Casados:", casados);
+        console.log("Divorvciados:", divorciados);
+        console.log("Viuvos:", viuvos);
+    </script>
+</body>
+</html>

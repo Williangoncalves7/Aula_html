@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let tentativas = 0;
+        
+        while (tentativas < 3) {
+            let usuario = prompt("Login:");
+            let senha = prompt("Senha:");
+
+            if (usuario === "usuario" && senha === "12345") {
+                alert("Login realizado com sucesso");
+                break;
+            } else {
+                alert("Dados incorretos");
+                tentativas++;
+            }
+        }
+
+        if (tentativas == 3) {
+            alert("Sem acesso ao sistema, procure o administrador");
+        }
+    </script>
+</body>
+</html>
